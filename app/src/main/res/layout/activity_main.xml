@@ -16,7 +16,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-
-
+    <!--Отмена простого уведомления -->
+    <Button
+        android:id="@+id/simple.cancel"
+        android:text="Убрать простое уведомление"
+        android:onClick="simpleCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--Запускает браузер -->
+    <Button
+        android:id="@+id/browser"
+        android:text="Браузер"
+        android:onClick="browserNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
 
